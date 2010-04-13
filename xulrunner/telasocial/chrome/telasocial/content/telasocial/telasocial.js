@@ -148,7 +148,7 @@ function showConsole() {
 
 function onload() {
   var urlbar = document.getElementById("urlbar");
-  urlbar.value = "http://www.mozilla.org/";
+  urlbar.value = "chrome://tagvisor/content/visor/index.html";
 
   listener = new WebProgressListener();
 
